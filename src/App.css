@@ -1,5 +1,11 @@
+@import "~antd/dist/antd.css";
 .App {
-  text-align:center;
+  text-align: center;
+  background-color: white;
+}
+.App1 {
+  text-align: center;
+  background-color: darkgrey;
 }
 
 .App-logo {
@@ -37,7 +43,7 @@
   }
 }
 
-#bloque{
+#bloque {
   height: 50px;
   background-color: black;
   width: 300px;
@@ -46,77 +52,114 @@
   border-radius: 10px;
   margin-bottom: 30px;
 }
-#bloque:hover{
+#bloque:hover {
   background-color: brown;
 }
 
 /*
 para los logos
 */
-.logoRedes{
+.logoRedes {
   width: 60px;
   height: 60px;
-  margin:10px;
+  margin: 10px;
 }
-.texto{
-  margin:10px 350px;
+.texto {
+  margin: 10px 350px;
   text-align: justify;
   font-size: 20px;
   font-weight: lighter;
   font-family: sans-serif;
 }
-.flexBox{
+.flexBox {
   display: flex;
   margin: 10px;
   flex-direction: row;
   flex-wrap: wrap;
- align-items: center;
- align-content: center;
-  
+  align-items: center;
+  align-content: center;
+
   justify-content: center;
   background-color: chartreuse;
   height: 500px;
-
-
 }
 
 /*Bloque*/
 .bloque1 {
- width: 700px;
- background-color: aqua;
- height: 500px;
- display: flex;
- flex-direction: column;
+  width: 700px;
+  background-color: aqua;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
 }
-.atributo1{
+.atributo1 {
   background-color: beige;
   height: 200px;
   width: 200px;
   align-content: center;
   justify-content: center;
-
 }
-.texto{
-
+.texto {
 }
-.bloqueInteractivo{
+.bloqueInteractivo {
   width: 700px;
   background-color: red;
   height: 500px;
   display: flex;
   flex-direction: column;
 }
-.nombre1{
- background-color: red;
- height: 80px;
- width: 100px;
- margin:20px;
- padding: 20px;
+.nombre1 {
+  background-color: red;
+  height: 80px;
+  width: 100px;
+  margin: 20px;
+  padding: 20px;
 }
-.nombre2{
-background-color: blue;
- height: 80px;
- width: 100px;
- margin:20px;
- padding: 20px;
+.nombre2 {
+  background-color: blue;
+  height: 80px;
+  width: 100px;
+  margin: 20px;
+  padding: 20px;
+}
+.bot {
+  background-color: #f2f2f2;
+  color: #282c34;
+  height: 50px;
+  width: 150px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.in {
+  background-color: whitesmoke;
+  color: #282c34;
+  height: 15px;
+  width: 50px;
+  margin: 20px;
+  padding: 20px;
+}
+.TextoI {
+  background-color:lightseagreen ;
+  color: #61dafb;
+  align-content: center;
+  justify-content: center;
+}
+.TextoII {
+  background-color: lightseagreen;
+
+  align-content: center;
+  justify-content: center;
+}
+.TextoIII {
+  background-color: white;
+
+  align-content: center;
+  justify-content: center;
+}
+.TextoIV {
+  background-color: whitesmoke;
+
+  align-content: center;
+  justify-content: center;
 }
